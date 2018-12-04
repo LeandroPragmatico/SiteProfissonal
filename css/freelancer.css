@@ -49,7 +49,7 @@ hr.star-light {
 
 hr.star-light:after {
   color: #fff;
-  background-color: #18BC9C;
+  background-color: #576574;
 }
 
 hr.star-dark {
@@ -59,6 +59,42 @@ hr.star-dark {
 hr.star-dark:after {
   color: #2C3E50;
   background-color: white;
+}
+
+.content > div .profile-pic {
+  width: 250px;
+  height: 250px;
+  max-width: 60vw;
+  max-height: 60vw;
+  border-radius: 100%;
+  border-width: 15px;
+  border-style: solid;
+  margin-right: 100px;
+}
+
+@media (max-width: 768px) {
+  .content > div .profile-pic {
+    margin-right: 0;
+    margin-bottom: 50px;
+  }
+}
+
+.container img {
+  width: 450px;
+  height: 450px;
+  max-width: 60vw;
+  max-height: 60vw;
+  border-radius: 100%;
+  border-width: 5px;
+  border-style: solid;
+  margin-right: 100px;
+}
+.container {
+  clear: both;
+  margin-top: 20px;
+}
+img {
+  vertical-align: top
 }
 
 section {
@@ -161,7 +197,7 @@ section h2 {
   }
   #mainNav .navbar-nav > li.nav-item > a.nav-link.active:active, #mainNav .navbar-nav > li.nav-item > a.nav-link.active:focus, #mainNav .navbar-nav > li.nav-item > a.nav-link.active:hover {
     color: #fff;
-    background: #18BC9C;
+    background: rgb(188, 24, 166);
   }
   #mainNav.navbar-shrink {
     padding-top: 0.5rem;
@@ -348,11 +384,11 @@ a:focus, a:hover, a:active {
 }
 
 .bg-primary {
-  background-color: #18BC9C !important;
+  background-color: #576574 !important;
 }
 
 .bg-secondary {
-  background-color: #2C3E50 !important;
+  background-color: #222f3e !important;
 }
 
 .text-primary {
