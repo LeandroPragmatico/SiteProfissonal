@@ -84,7 +84,7 @@ hr.star-dark:after {
   height: 450px;
   max-width: 60vw;
   max-height: 60vw;
-  border-radius: 100%;
+  border-radius: 10%;
   border-width: 5px;
   border-style: solid;
   margin-right: 100px;
