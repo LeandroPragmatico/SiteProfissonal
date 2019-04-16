@@ -80,6 +80,16 @@ hr.star-dark:after {
 }
 
 .container img {
+  width: 216px;
+  height: 350px;
+  max-width: 60vw;
+  max-height: 60vw;
+  border-radius: 10%;
+  border-width: 5px;
+  border-style: solid;
+  margin-right: 100px;
+}
+.container2 img {
   width: 350px;
   height: 350px;
   max-width: 60vw;
